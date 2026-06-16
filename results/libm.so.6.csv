@@ -1,0 +1,4 @@
+set,value,target,sht_entries,pht_entries,pht_survivors,pht_skipped,status,gdb,gdb_error,ghidra,ghidra_error
+ALL,zero,libm.so.6,30,11,6,"[1,2,3,4,10]",tested,opened,,opened_elf,
+ALL,max,libm.so.6,30,11,6,"[1,2,3,4,10]",tested,broke,"""/tmp/tmpqq449b43"": not in executable format: file format not recognized",opened_elf,
+ALL,random,libm.so.6,30,11,6,"[1,2,3,4,10]",tested,broke,"""/tmp/tmpi6ixum4f"": not in executable format: file format not recognized",opened_elf,

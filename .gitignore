@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+targets/bin/alvo_*_*
+targets/bin/bash_*
+targets/bin/libexemplo_*
+targets/bin/libm.so_*
+*.i64
+*.id0
+*.id1
+*.id2
+*.nam
+*.til
+results/backup/

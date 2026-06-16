@@ -1,0 +1,13 @@
+set,value,target,sht_entries,pht_entries,pht_survivors,pht_skipped,status,gdb,gdb_error,ghidra,ghidra_error
+SHT,zero,libexemplo.so,30,,,,tested,opened,,opened_elf,
+SHT,max,libexemplo.so,30,,,,tested,broke,"""/tmp/tmppsmqynkk"": not in executable format: file format not recognized",opened_elf,
+SHT,random,libexemplo.so,30,,,,tested,broke,"""/tmp/tmps8cp7r7s"": not in executable format: file format not recognized",opened_raw,
+PHT,zero,libexemplo.so,,10,5,"[1,2,3,4,9]",tested,opened,,opened_elf,
+PHT,max,libexemplo.so,,10,5,"[1,2,3,4,9]",tested,opened,,opened_elf,
+PHT,random,libexemplo.so,,10,5,"[1,2,3,4,9]",tested,opened,,opened_elf,
+EHDR,zero,libexemplo.so,,,,,tested,opened,,opened_elf,
+EHDR,max,libexemplo.so,,,,,tested,opened,,opened_elf,
+EHDR,random,libexemplo.so,,,,,tested,opened,,opened_elf,
+ALL,zero,libexemplo.so,30,10,5,"[1,2,3,4,9]",tested,opened,,opened_elf,
+ALL,max,libexemplo.so,30,10,5,"[1,2,3,4,9]",tested,broke,"""/tmp/tmpb0ifdk5v"": not in executable format: file format not recognized",opened_elf,
+ALL,random,libexemplo.so,30,10,5,"[1,2,3,4,9]",tested,broke,"""/tmp/tmpbg4vu7en"": not in executable format: file format not recognized",opened_raw,

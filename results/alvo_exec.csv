@@ -1,0 +1,13 @@
+set,value,target,sht_entries,pht_entries,pht_survivors,pht_skipped,status,gdb,gdb_error,ghidra,ghidra_error
+SHT,zero,alvo_exec,36,,,,tested,opened,,opened_elf,
+SHT,max,alvo_exec,36,,,,tested,broke,"""/tmp/tmpww_6812m"": not in executable format: file format not recognized",opened_elf,
+SHT,random,alvo_exec,36,,,,tested,broke,"""/tmp/tmp00wt0a1m"": not in executable format: file format not recognized",opened_elf,
+PHT,zero,alvo_exec,,13,7,"[1,2,3,4,5,6]",tested,opened,,opened_elf,
+PHT,max,alvo_exec,,13,7,"[1,2,3,4,5,6]",tested,opened,,opened_elf,
+PHT,random,alvo_exec,,13,7,"[1,2,3,4,5,6]",tested,opened,,opened_elf,
+EHDR,zero,alvo_exec,,,,,tested,broke,"""/tmp/tmpn23z872v"": not in executable format: file format not recognized",opened_raw,
+EHDR,max,alvo_exec,,,,,tested,broke,"""/tmp/tmpf27q__bf"": not in executable format: file format not recognized",opened_raw,
+EHDR,random,alvo_exec,,,,,tested,broke,"""/tmp/tmpahelhl50"": not in executable format: file format not recognized",opened_raw,
+ALL,zero,alvo_exec,36,13,7,"[1,2,3,4,5,6]",tested,broke,"""/tmp/tmpwcaiuh0n"": not in executable format: file format not recognized",opened_raw,
+ALL,max,alvo_exec,36,13,7,"[1,2,3,4,5,6]",tested,broke,"""/tmp/tmp5763lncp"": not in executable format: file format not recognized",opened_raw,
+ALL,random,alvo_exec,36,13,7,"[1,2,3,4,5,6]",tested,broke,"""/tmp/tmp4_fu9l6f"": not in executable format: file format not recognized",opened_raw,

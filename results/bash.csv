@@ -1,0 +1,4 @@
+set,value,target,sht_entries,pht_entries,pht_survivors,pht_skipped,status,gdb,gdb_error,ghidra,ghidra_error
+ALL,zero,bash,30,13,7,"[1,2,3,4,5,6]",tested,broke,"""/tmp/tmpl36rqs5o"": not in executable format: file format not recognized",opened_raw,
+ALL,max,bash,30,13,7,"[1,2,3,4,5,6]",tested,broke,"""/tmp/tmpiyoglrdc"": not in executable format: file format not recognized",opened_raw,
+ALL,random,bash,30,13,7,"[1,2,3,4,5,6]",tested,broke,"""/tmp/tmp21qssp99"": not in executable format: file format not recognized",opened_raw,
