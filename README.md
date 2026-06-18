@@ -2,7 +2,7 @@
 
 This repository contains the implementation and experimental data for the
 thesis *"Experimental Study of Anti-Debugging Techniques in Linux
-Environments"* (IDP, 2025).
+Environments"* (IDP, 2026).
 
 The work evaluates three post-build anti-analysis techniques applied to
 ELF64 binaries on x86-64 Linux, without access to source code or
