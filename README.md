@@ -60,7 +60,7 @@ gcc -g -shared -fPIC -o ../bin/libexemplo.so lib_t.c
 ```
 
 System binaries `/usr/bin/bash` and `/usr/lib/x86_64-linux-gnu/libm.so.6`
-are used as additional targets in Experiments 1 and 3. They are not
+are used as additional targets in all experiments. They are not
 included in the repository and are read directly from the system path.
 
 ## Environment
